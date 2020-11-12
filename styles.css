@@ -36,6 +36,10 @@ button {
  
 }
 
+button[disabled] {
+    opacity: .2;
+}
+
 #new-joke {
     font-size: 1.2rem;
 }
